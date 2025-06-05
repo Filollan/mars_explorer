@@ -1,0 +1,10 @@
+{% extends 'base/base.html' %}
+{% block content %}
+<h2>¿Eliminar este astronauta?</h2>
+<p>¿Estás seguro de que deseas eliminar "{{ object }}"?</p>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Sí, eliminar</button>
+</form>
+<a href="{% url 'astronauta_list' %}">Cancelar</a>
+{% endblock %}
