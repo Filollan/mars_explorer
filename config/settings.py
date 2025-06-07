@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-)n&9r(*vgz^q*2cv5ka9^=cowrfz0%jvuy*#dux)ws^qb4$c$)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mars-explorer-1.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
